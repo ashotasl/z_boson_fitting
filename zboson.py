@@ -4,7 +4,7 @@
 Measuring Gamma width of Z boson
 ---------------------------------------------
 This python code takes data files reads, filters and merges them. 
-Then 2D fitting is then carried out using chi squared minimisation.
+Then 2D fitting is carried out using chi squared minimisation.
 Mesh arrays are created to calculate the uncertainties on m_zz and gamma_zz values. 
 Then code plots graphs of fitting and data points. Chi-square contour elipses are plotted as well
 
@@ -353,4 +353,5 @@ if __name__ == "__main__":
     output_data(optimal_values, min_chi_sq_val, E)
     plot_data(optimal_values, min_chi_sq_val, E, sigma, uncertainty)
     uncertainties_func(optimal_values, min_chi_sq_val, E, sigma, uncertainty)
+
 
